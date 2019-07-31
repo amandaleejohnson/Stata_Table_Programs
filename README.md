@@ -20,4 +20,8 @@ table1catrow names-of-row-variables **if female==1**, by(name-of-column-variable
 This will produce a table with the following title: “Table 1. Column percentages of categorical variables by [name-of-column-variable] **if [if-statement]**”
 
 
-**NOTE – The Excel file name is generated with the “by variable”. So, if you type “table1catrow age sex race, by(smoking)”, the Excel file will be called “table1_bysmoking.xlsx”. If you change the list of covariates in the table but keep the same by variable, you will overwrite the Excel file each time you run it.**
+**NOTE – The Excel file name is generated with the “by variable”. So, if you type:**
+
+**table1catrow age sex race, by(smoking)** 
+
+**the Excel file will be called “table1_bysmoking.xlsx”. If you change the list of covariates in the table but keep the same by variable, you will overwrite the Excel file each time you run it.**
