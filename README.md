@@ -11,6 +11,9 @@ do “filepathway\table1catcol.do”
 table1catrow names-of-row-variables, by(name-of-column-variable) replace
 table1catcol names-of-row-variables, by(name-of-column-variable) replace
 
+***All variables and levels of variables need to be labeled. For example, variable "sex" is labeled "Sex" with levels 1"Male" and 2"Female".***
+
+
 The above line will produce a table with the following title: “Table 1. Column percentages of categorical variables by [name-of-column-variable]”
 
 Both programs can also incorporate “if statements”:
