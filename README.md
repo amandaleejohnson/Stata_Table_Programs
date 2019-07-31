@@ -1,2 +1,2 @@
-# Stata_Table_Programs
-Programs to automate tables from Stata
+# Stata Table Programs
+Programs to automate the production of tables from Stata to MS Excel.
